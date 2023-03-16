@@ -5,7 +5,7 @@
             [mode] = "(isHandset$ | async) ? 'over' : 'side'"
             [opened] = "false">
         <mat-toolbar>Menu</mat-toolbar>
-        <mat-nav-list>
+        <mat-nav-list class="menuItems">
             <a mat-list-item routerLink="/" (click)="drawer.close()">Home</a>
             <a mat-list-item routerLink="Calculadoras" (click)="drawer.close()">Calculadoras</a>
         </mat-nav-list>
@@ -27,7 +27,7 @@
             <span class="logo" routerLink="/">Juntos Adelante</span>
             <span class="fill-space"></span>
             <div *ngIf="!(isHandset$ | async)">
-                <a mat-button routerLink="Calculadoras"> Calculadoras</a>
+                <a mat-button routerLink="Calculadoras" class="menuItems"> Calculadoras</a>
 
 
 

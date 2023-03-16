@@ -1,13 +1,15 @@
 .sidenav-container {
     height: 100%;
   }
-  
   .logo {
     font-size: 1.2em;
     cursor: pointer;
     outline: none;
   }
-  
+  .menuItems {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+  }
   .mat-drawer-side {
     border: none;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
