@@ -1,6 +1,30 @@
-h1{
+
+header {
     text-align: center;
+    background: #d1e0eb;
+    padding: 20px 20px 60px 20px;
+
+}
+.MainButtons {
+    font-size: 25px;
+    padding: 30px;
+    color: #ff6161
+}
+h1{
+    text-align: c;
     font-family: 'Playfair Display', serif;
     font-size: 32px;
     font-weight: 300;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
+
+section {
+    font-family: 'Playfair Display', serif;
+    margin: 2%;
+    padding:2% 0 2% 0;
 }
