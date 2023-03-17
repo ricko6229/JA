@@ -12,7 +12,40 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$JA-primary: mat.define-palette(mat.$indigo-palette);
+$bittersweet: (
+    50 : #f9e9ea,
+    100 : #f1c9cb,
+    200 : #e8a5a9,
+    300 : #de8087,
+    400 : #d7656d,
+    500 : #d04a53,
+    600 : #cb434c,
+    700 : #c43a42,
+    800 : #be3239,
+    900 : #b32229,
+    A100 : #ffeeef,
+    A200 : #ffbbbe,
+    A400 : #ff888d,
+    A700 : #ff6e74,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$JA-primary: mat.define-palette($bittersweet);
 $JA-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
