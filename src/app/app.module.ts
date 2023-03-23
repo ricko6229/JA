@@ -15,7 +15,6 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { MatIconModule } from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
-import { CalculatorComponent } from './calculator/calculator.component';
 import { CalculadoraHomepageComponent } from './calculadora-homepage/calculadora-homepage.component';
 
 
@@ -24,7 +23,6 @@ import { CalculadoraHomepageComponent } from './calculadora-homepage/calculadora
   declarations: [
     AppComponent,
     HomePageComponent,
-    CalculatorComponent,
     CalculadoraHomepageComponent
   ],
   imports: [
