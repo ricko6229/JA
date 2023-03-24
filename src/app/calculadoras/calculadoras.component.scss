@@ -1,0 +1,45 @@
+h1{
+    text-align: c;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: #ff6161;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
+//Footer
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ff6161;
+    color: #fff;
+  }
+  
+  .social-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-bar a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .social-bar img {
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  #footerText {
+    margin: 0;
+    font-size: 12px;
+  }
