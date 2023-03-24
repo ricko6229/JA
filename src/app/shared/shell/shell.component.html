@@ -8,7 +8,7 @@
         <mat-toolbar>Menu</mat-toolbar>
         <mat-nav-list class="menuItems">
             <a mat-list-item routerLink="/" (click)="drawer.close()">Inicio</a>
-            <a mat-list-item routerLink="Calculadoras" (click)="drawer.close()">Calculadoras</a>
+            <a mat-list-item routerLink="/calculadoras" (click)="drawer.close()">Calculadoras</a>
         </mat-nav-list>
 
 
@@ -25,10 +25,10 @@
 
               <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
             </button>
-            <span class="logo" routerLink="/">Juntos Adelante</span>
+            <span class="logo" routerLink="/"> <img src="assets\svg\JAHorizontal.svg" alt="Logo"></span>
             <span class="fill-space"></span>
             <div *ngIf="!(isHandset$ | async)">
-                <a mat-button routerLink="Calculadoras" class="menuItems"> Calculadoras</a>
+                <a mat-button routerLink="/calculadoras" class="menuItems"> Calculadoras</a>
 
 
 
