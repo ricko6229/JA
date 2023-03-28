@@ -16,6 +16,7 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
 import { MatIconModule } from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 import { CalculadorasComponent } from './calculadoras/calculadoras.component';
+import { CalculadoraMensualidadDeAutomovilComponent } from './calculadora-mensualidad-de-automovil/calculadora-mensualidad-de-automovil.component';
 
 
 
@@ -23,7 +24,8 @@ import { CalculadorasComponent } from './calculadoras/calculadoras.component';
   declarations: [
     AppComponent,
     HomePageComponent,
-    CalculadorasComponent
+    CalculadorasComponent,
+    CalculadoraMensualidadDeAutomovilComponent
   ],
   imports: [
     BrowserModule,
