@@ -1,35 +1,49 @@
 header {
     background-color: #d1e0eb;
-    padding: 2% 1% 2% 1%;
+    padding: 20px 20px 40px 20px;
+    font-family: 'Playfair Display', serif;
   }
   h1{
       text-align: c;
-      font-family: 'Playfair Display', serif;
       font-size: 42px;
       font-weight: 300;
       color: #ff6161;
       background-color: #d1e0eb;
-      padding-left: 2%;
   }
   h2{
       font-size: 20px;
-      font-family: 'Playfair Display', serif;
-      padding-left: 2%;
       font-size: 26px;
   }
   p{
       font-size: 16px;
-      font-family: 'Playfair Display', serif;
-      padding-left: 2%;
-      padding-right: 2%;
   }
   
+  //calculator
+  #title {
+    text-align: center;
+    font-size: 30px;
+  }
   h3{
     padding-left: 2%;
+    font-family: 'Playfair Display', serif;
+
   }
   li{
     color:#0066ffa4;
   }
+
+  //Calculator CSS
+  .calculator {
+    background-color: #77E8CA;
+    padding: 3% 3% 5% 3%;
+    margin: 2% 3% 0% 3%;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    border-top: #ff6161;
+    border-top: medium;
+    border-bottom: #ff6161;
+    border-bottom: medium;
+  }
+
   //Footer
   footer {
       display: flex;
