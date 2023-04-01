@@ -17,7 +17,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 import { CalculadorasComponent } from './calculadoras/calculadoras.component';
 import { CalculadoraMensualidadDeAutomovilComponent } from './calculadora-mensualidad-de-automovil/calculadora-mensualidad-de-automovil.component';
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -34,6 +34,7 @@ import { CalculadoraMensualidadDeAutomovilComponent } from './calculadora-mensua
     SharedModule,
     MatIconModule,
     HttpClientModule,
+    FormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAnalytics(() => getAnalytics()),
     provideAuth(() => getAuth()),
