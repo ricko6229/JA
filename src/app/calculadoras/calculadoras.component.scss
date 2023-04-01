@@ -27,35 +27,3 @@ h3{
 li{
   color:#0066ffa4;
 }
-//Footer
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #ff6161;
-    color: #fff;
-  }
-  
-  .social-bar {
-    display: flex;
-    align-items: center;
-  }
-  
-  .social-bar a {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-  }
-  
-  .social-bar img {
-    height: 40px;
-    width: auto;
-    margin-right: 5px;
-  }
-  
-  #footerText {
-    margin: 0;
-    font-size: 12px;
-  }

@@ -3,6 +3,11 @@ header {
     padding: 20px 20px 40px 20px;
     font-family: 'Playfair Display', serif;
   }
+main {
+  min-height: calc(100vh - 160px); /* Adjust the value based on your header and footer height */
+  margin-bottom: 100px;
+}
+ 
   h1{
       text-align: c;
       font-size: 42px;
@@ -109,7 +114,7 @@ header {
     width: 50%;
   }
   
-  @media (max-width: 650px) {
+  @media (max-width: 768px) {
     .loan-calculator {
       width: 90%;
       max-width: 500px;
@@ -129,35 +134,4 @@ header {
     }
   }
 
-  //Footer
-  footer {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px;
-      background-color: #ff6161;
-      color: #fff;
-    }
-    
-    .social-bar {
-      display: flex;
-      align-items: center;
-    }
-    
-    .social-bar a {
-      display: flex;
-      align-items: center;
-      margin-right: 10px;
-    }
-    
-    .social-bar img {
-      height: 40px;
-      width: auto;
-      margin-right: 5px;
-    }
-    
-    #footerText {
-      margin: 0;
-      font-size: 12px;
-    }
+  

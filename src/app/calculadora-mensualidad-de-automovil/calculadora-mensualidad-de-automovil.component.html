@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<a routerLink="calculadora-mensualidad-de-automovil"></a>
-<html lang="esp">
+<html lang="es">
   <head>
     <title>Calculadora De Mensualidad De Automovil</title>
     <meta charset="UTF-8">
@@ -17,20 +16,20 @@
         <div class="top">
           <h2>Loan Calculator</h2>
     
-          <form action="#">
+          <form>
             <div class="group">
               <div class="title">Amount</div>
-              <input type="text" [(ngModel)]="loanAmount" class="loan-amount" />
+              <input type="text" [(ngModel)]="loanAmount" name="loanAmount" class="loan-amount" />
             </div>
-    
+          
             <div class="group">
               <div class="title">Interest Rate</div>
-              <input type="text" [(ngModel)]="interestRate" class="interest-rate" />
+              <input type="text" [(ngModel)]="interestRate" name="interestRate" class="interest-rate" />
             </div>
-    
+          
             <div class="group">
               <div class="title">Tenure (in months)</div>
-              <input type="text" [(ngModel)]="loanTenure" class="loan-tenure" />
+              <input type="text" [(ngModel)]="loanTenure" name="loanTenure" class="loan-tenure" />
             </div>
           </form>
         </div>
@@ -61,15 +60,6 @@
         </div>
       </div>
     </main>
-    
   </body>
-  <footer>
-    <div class="social-bar">
-      <a href="https://www.youtube.com"> <img src="assets/svg/youtube-icon.svg"><i class="fab fa-youtube"></i></a>
-      <a href="https://www.facebook.com"> <img src="assets/svg/facebook-icon.svg"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.tiktok.com"> <img src="assets/svg/tiktok-icon.svg"><i class="fab fa-tiktok"></i></a>
-    </div>
-    <p id="footerText"> Todos Los Derechos Reservados <br>© Adelante Holdings LLC</p>
-  </footer>
 </html>
 

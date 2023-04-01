@@ -1,6 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
 
+mat-sidenav-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  overflow-y: hidden;
+}
+.content-container {
+  flex: 1 0 auto;
+  overflow-y: auto;
+}
 .sidenav-container {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+  }
+  .content-container{
+    flex: 1 0 auto;
+    overflow-y: auto;
   }
   .shadow-toolbar {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2) ;
@@ -53,4 +74,41 @@
     /* Add your styles here, e.g., */
     width: 150px;
     height: auto;
+  }
+
+  //footer
+
+  footer {
+    display: flex;
+    flex-wrap: nowrap; /* Change this to nowrap to prevent wrapping */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ff6161;
+    color: #fff;
+    flex-shrink: 0;
+  }
+    
+  .social-bar {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Add this to let the social-bar grow to occupy the available space */
+  }
+    
+  .social-bar a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .social-bar img {
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  #footerText {
+    margin: 0;
+    font-size: 12px;
+    text-align: right; /* Add this to align the text to the right */
   }
