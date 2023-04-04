@@ -91,7 +91,6 @@ main {
   }
   
   .loan-calculator .result .value::before {
-    content: "$";
     font-size: 24px;
     font-weight: 400;
     margin-right: 6px;
@@ -99,7 +98,7 @@ main {
   }
   
   .loan-calculator .calculate-btn {
-    background: #e63946;
+    background: #ff6161;
     color: #fff;
     border: none;
     padding: 8px 32px;
