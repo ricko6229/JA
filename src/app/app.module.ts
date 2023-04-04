@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CalculadorasComponent } from './calculadoras/calculadoras.component';
 import { CalculadoraMensualidadDeAutomovilComponent } from './calculadora-mensualidad-de-automovil/calculadora-mensualidad-de-automovil.component';
 import { FormsModule } from '@angular/forms';
+import { CalculadoraFiftythirtyComponent } from './calculadora-fiftythirty/calculadora-fiftythirty.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     HomePageComponent,
     CalculadorasComponent,
-    CalculadoraMensualidadDeAutomovilComponent
+    CalculadoraMensualidadDeAutomovilComponent,
+    CalculadoraFiftythirtyComponent
   ],
   imports: [
     BrowserModule,

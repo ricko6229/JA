@@ -2,15 +2,13 @@ import { Component } from '@angular/core';
 import { ElementRef, ViewChild, AfterViewInit,OnInit } from '@angular/core';
 import { Chart } from 'chart.js';
 
-
 @Component({
-  selector: 'app-calculadora-mensualidad-de-automovil',
-  templateUrl: './calculadora-mensualidad-de-automovil.component.html',
-  styleUrls: ['./calculadora-mensualidad-de-automovil.component.scss']
+  selector: 'app-calculadora-fiftythirty',
+  templateUrl: './calculadora-fiftythirty.component.html',
+  styleUrls: ['./calculadora-fiftythirty.component.scss']
 })
 
-
-export class CalculadoraMensualidadDeAutomovilComponent implements OnInit {
+export class CalculadoraFiftythirtyComponent implements OnInit {
 
   formatCurrency(value: number): string {
     return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
