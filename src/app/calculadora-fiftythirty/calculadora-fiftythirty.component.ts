@@ -56,12 +56,9 @@ export class CalculadoraFiftythirtyComponent implements OnInit {
 
   
 
-  loanAmount: number = 10000;
-  interestRate: number = 8;
-  loanTenure: number = 60;
+  loanAmount: number = 400;
 
-  interest: number = this.interestRate / 12 / 100;
-  loanEMI: number = 0;
+  necesidades: number = 0;
   totalAmount: number = 0;
   totalInterest: number = 0;
 
@@ -78,12 +75,11 @@ export class CalculadoraFiftythirtyComponent implements OnInit {
 
   
   init(): void {
-    const n = this.loanTenure;
-    const r = (this.interestRate / 100) / 12;  // Convert annual interest rate (percentage) to a monthly interest rate (decimal)
+
   
-    this.loanEMI = parseFloat((this.loanAmount * r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1)).toFixed(2));
-    this.totalAmount = parseFloat(((this.loanEMI) * n).toFixed(2));
-    this.totalInterest = parseFloat((this.totalAmount - this.loanAmount).toFixed(2));
+    this.necesidades = parseFloat((this.loanAmount * 52 /12*.5).toFixed(2));
+    this.totalAmount = parseFloat(((this.loanAmount * 52 /12*.2).toFixed(2)));
+    this.totalInterest = parseFloat((this.loanAmount * 52 /12*.3).toFixed(2));
   
     // Update chart data
     this.updateChartData();

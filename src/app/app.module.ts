@@ -19,6 +19,7 @@ import { CalculadorasComponent } from './calculadoras/calculadoras.component';
 import { CalculadoraMensualidadDeAutomovilComponent } from './calculadora-mensualidad-de-automovil/calculadora-mensualidad-de-automovil.component';
 import { FormsModule } from '@angular/forms';
 import { CalculadoraFiftythirtyComponent } from './calculadora-fiftythirty/calculadora-fiftythirty.component';
+import { CalculadoraMensualidadHipotecaComponent } from './calculadora-mensualidad-hipoteca/calculadora-mensualidad-hipoteca.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CalculadoraFiftythirtyComponent } from './calculadora-fiftythirty/calcu
     HomePageComponent,
     CalculadorasComponent,
     CalculadoraMensualidadDeAutomovilComponent,
-    CalculadoraFiftythirtyComponent
+    CalculadoraFiftythirtyComponent,
+    CalculadoraMensualidadHipotecaComponent
   ],
   imports: [
     BrowserModule,
