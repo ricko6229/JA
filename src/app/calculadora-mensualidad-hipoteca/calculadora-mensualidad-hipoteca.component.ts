@@ -57,7 +57,7 @@ import { Chart } from 'chart.js';
   
     
   
-    loanAmount: number = 10000;
+    loanAmount: number = 100000;
     interestRate: number = 8;
     loanTenure: number = 60;
   

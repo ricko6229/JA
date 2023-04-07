@@ -46,7 +46,6 @@ main {
     padding: 32px;
   }
   
-  
   .loan-calculator .top h2 {
     margin-top: 0;
   }
@@ -61,7 +60,8 @@ main {
     margin-bottom: 16px;
   }
   
-  .loan-calculator form input {
+  .loan-calculator form input,
+  .loan-calculator form select.loan-tenure {
     font-size: 20px;
     padding: 8px 24px;
     width: 100%;
