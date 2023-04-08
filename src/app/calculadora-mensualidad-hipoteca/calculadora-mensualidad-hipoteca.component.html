@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>Calculadora De Mensualidad De Automovil</title>
+    <title>Calculadora De Mensualidad De Prestamo Hipotecario</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <header>
-      <h1>Calculadora De Mensualidad De Prestamo De Automovil </h1>
-      <P>Mete tus datos y ve cómo cambian los pagos mensuales de un préstamo de auto actualizando el costo del carro,  el termino del préstamo, y la tasa de interés (basada en tu
+      <h1>Calculadora De Mensualidad De Prestamo Hipotecario </h1>
+      <P>Introduce tus datos y comprueba cómo cambian los pagos mensuales de una hipoteca ajustando el valor del inmueble, la duración del préstamo y la tasa de interés (basada en tu
         crédito).</P>
     </header>
     <main>
@@ -18,7 +18,7 @@
     
           <form>
             <div class="group">
-              <div class="title">Precio de hogar</div>
+              <div class="title">Valor del inmueble</div>
               <input type="number" [(ngModel)]="loanAmount" name="loanAmount" class="loan-amount" />
             </div>
           
@@ -52,7 +52,7 @@
             </div>
     
             <div class="total-amount">
-              <h3>Cantidad Pagada Por Automovil</h3>
+              <h3>Cantidad pagada por el inmueble</h3>
               <div class="value">{{ formatCurrency(totalAmount) }}</div>
             </div>
     
