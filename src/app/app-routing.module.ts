@@ -9,6 +9,7 @@ import { CalculadoraMensualidadHipotecaComponent } from './calculadora-mensualid
 
 const routes: Routes = [
   {path:'', component: HomePageComponent},
+  {path:'login',loadChildren: () => import('./user/user.module').then(m => m.UserModule)},
   {path:'calculadoras',component:CalculadorasComponent},
   {path:'calculadora-mensualidad-de-automovil',component:CalculadoraMensualidadDeAutomovilComponent},
   {path:'calculadora-fiftythirty',component:CalculadoraFiftythirtyComponent},

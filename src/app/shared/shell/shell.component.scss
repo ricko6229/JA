@@ -112,3 +112,21 @@ mat-sidenav-content {
     font-size: 12px;
     text-align: right; /* Add this to align the text to the right */
   }
+  .shaded-button{
+    background-color: #ff6161;
+    color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+  }
+
+  @media (max-width:768px) {
+    .shaded-button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  @media (min-width: 601px) {
+    .menuItems {
+      text-decoration: none;
+    }
+  }
