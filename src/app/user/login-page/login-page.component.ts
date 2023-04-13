@@ -8,5 +8,9 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 })
 export class LoginPageComponent {
 
-  constructor(public AfAuth: AngularFireAuth) {}
+  constructor(public afAuth: AngularFireAuth) {}
+
+  ngOnInit() {
+    
+  }
 }
