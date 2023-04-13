@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 
+@Injectable()
 @Component({
   selector: 'app-login-page',
   templateUrl: './login-page.component.html',

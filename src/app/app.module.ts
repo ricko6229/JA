@@ -21,7 +21,7 @@ import { CalculadoraMensualidadDeAutomovilComponent } from './calculadora-mensua
 import { FormsModule } from '@angular/forms';
 import { CalculadoraFiftythirtyComponent } from './calculadora-fiftythirty/calculadora-fiftythirty.component';
 import { CalculadoraMensualidadHipotecaComponent } from './calculadora-mensualidad-hipoteca/calculadora-mensualidad-hipoteca.component';
-
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 
 @NgModule({
   declarations: [

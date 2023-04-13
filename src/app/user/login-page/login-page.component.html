@@ -2,14 +2,14 @@
     <h1>Login</h1>
 
     <button mat-raised-button appGoogleSignin>
-      <img src="/assets/google-logo.svg" /> Login with Google
+      <img src="assets/svg/google-icon.svg" /> Login with Google
     </button>
   </div>
 
-  <div *ngIf="AfAuth.authState | async as user" class="logout">
+  <div *ngIf="afAuth.authState | async as user" class="logout">
     <p>
       Logged in as <strong>{{ user.email }}</strong>
     </p>
 
-    <button mat-stroked-button (click)="AfAuth.signOut()">Logout</button>
+    <button mat-stroked-button (click)="this.afAuth.signOut()">Logout</button>
   </div>
