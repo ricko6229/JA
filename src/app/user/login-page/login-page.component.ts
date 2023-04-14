@@ -1,5 +1,6 @@
 import { Component, Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @Injectable()
 @Component({
